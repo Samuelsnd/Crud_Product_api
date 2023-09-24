@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fa8877f-8cad-4a4e-8a45-5c6f6e89244d" name="Changes" comment="Feat: Crud_Product Complete">
-      <change afterPath="$PROJECT_DIR$/live-crud-java-spring-live-part-1/src/main/java/com/example/crud/infra/RequestsExceptionsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/live-crud-java-spring-live-part-1/src/main/java/com/example/crud/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/live-crud-java-spring-live-part-1/src/main/java/com/example/crud/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/live-crud-java-spring-live-part-1/src/main/java/com/example/crud/domain/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/live-crud-java-spring-live-part-1/src/main/java/com/example/crud/domain/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/live-crud-java-spring-live-part-1/src/main/java/com/example/crud/domain/product/RequestProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/live-crud-java-spring-live-part-1/src/main/java/com/example/crud/domain/product/DTO/RequestProduct.java" afterDir="false" />
-    </list>
+    <list default="true" id="8fa8877f-8cad-4a4e-8a45-5c6f6e89244d" name="Changes" comment="Feat: Create Exception Handler" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/CASA/Desktop/Java Cursos/Crud_Product",
+    "last_opened_file_path": "D:/CASA/Desktop/Java Cursos/Crud_Product/live-crud-java-spring-live-part-1",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -104,11 +98,33 @@
       <option name="project" value="LOCAL" />
       <updated>1695527151453</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Feat: Create Exception Handler">
+      <created>1695529805965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695529805965</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Feat: Create Exception Handler">
+      <created>1695529932729</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695529932729</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Feat: Create Exception Handler">
+      <created>1695529988026</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695529988026</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Feat: Crud_Product Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Crud_Product Complete" />
+    <MESSAGE value="Feat: Create Exception Handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Create Exception Handler" />
   </component>
 </project>

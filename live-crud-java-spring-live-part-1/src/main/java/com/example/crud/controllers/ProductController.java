@@ -3,6 +3,7 @@ package com.example.crud.controllers;
 import com.example.crud.domain.product.Product;
 import com.example.crud.domain.product.ProductRepository;
 import com.example.crud.domain.product.DTO.RequestProduct;
+import com.example.crud.exceptionHandler.ResourceNotFoundException;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -40,7 +41,7 @@ public class ProductController {
             newProduct.setPrice_in_cents(requestProduct.price_in_cents());
             return ResponseEntity.ok(newProduct);
         }
-            return ResponseEntity.notFound().build();
+            throw new ResourceNotFoundException("object not found please solve the problem!");
     }
 
     @DeleteMapping("/{id}")
@@ -52,7 +53,7 @@ public class ProductController {
             newProduct.setActive(false);
             return ResponseEntity.noContent().build();
         }
-        return ResponseEntity.noContent().build();
+        throw new ResourceNotFoundException("No records found for this ID");
     }
 
 }
