@@ -1,10 +1,8 @@
 package com.example.crud.domain.product;
 
+import com.example.crud.domain.product.DTO.RequestProduct;
 import jakarta.persistence.*;
 import lombok.*;
-
-import java.io.Serializable;
-import java.util.UUID;
 
 @Table(name="product")
 @Entity(name="product")
